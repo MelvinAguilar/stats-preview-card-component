@@ -6,14 +6,14 @@
 
   <h2 align="center">Stats preview card component solution</h2>
   <p align="center">
-    <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62"><strong>Frontend Mentor Challenge</strong></a>
+    <a href="https://www.frontendmentor.io/solutions/stats-preview-card-component-tailwind-css-DNUquEvcfB"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://stats-preview-card-component-hdez.vercel.app/">View Demo</a>
     ·
-    <a href="" target="_blank">Report Bug</a>
+    <a href="https://github.com/MelvinAguilar/stats-preview-card-component/issues" target="_blank">Report Bug</a>
     ·
-    <a href="" target="_blank">Request Feature</a>
+    <a href="https://github.com/MelvinAguilar/stats-preview-card-component/issues" target="_blank">Request Feature</a>
   </p>
 </div>
 
@@ -24,8 +24,8 @@
     <img src="https://img.shields.io/badge/Profile-Melvin%20Aguilar-07043B?style=for-the-badge&logo=frontendmentor" alt="Melvin Profile">
   </a>
   <!-- Status -->
-    <a href="#">
-    <img src="https://img.shields.io/badge/Status-Pending-E55937?style=for-the-badge" alt="Status">
+  <a href="#">
+    <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status Completed">
   </a>
 
 </div>
@@ -42,8 +42,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 <h2 align="center">Links</h2>
 
-<!-- - Solution URL: [Intro section with dropdown navigation (React + Tailwind + Dark mode) (React + SASS) | Frontend Mentor](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-tmQXOQU78e)
-- Live Site URL: [https://intro-section-with-dropdown-navigation-hdez.vercel.app/](https://intro-section-with-dropdown-navigation-hdez.vercel.app/)  -->
+- Solution URL: [Stats preview card component (Tailwind CSS) | Frontend Mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-tailwind-css-DNUquEvcfB)
+- Live Site URL: [https://stats-preview-card-component-hdez.vercel.app/](https://stats-preview-card-component-hdez.vercel.app/)
 
 <br>
 
