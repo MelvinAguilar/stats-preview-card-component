@@ -424,11 +424,6 @@ body {
   font-size: 0.9375rem;
 }
 
-:is(a, button, input, textarea, select, details, summary):focus-visible {
-  outline: white solid 0.15rem;
-  outline-offset: 0.188rem;
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -526,6 +521,18 @@ body {
 .filter-image {
   mix-blend-mode: multiply;
   opacity: 0.75;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 
 .m-6 {
@@ -726,8 +733,8 @@ body {
 }
 
 @media (min-width: 54.6875em) {
-  .md\:w-\[48\.3\%\] {
-    width: 48.3%;
+  .md\:w-\[48\.6\%\] {
+    width: 48.6%;
   }
 
   .md\:w-\[51\.4\%\] {

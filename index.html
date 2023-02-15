@@ -44,70 +44,73 @@
   <body
     class="grid min-h-screen place-content-center bg-very-dark-blue text-white"
   >
-    <main
-      class="bg-dark-blue m-6 flex max-w-[34.375rem] flex-col-reverse overflow-hidden rounded-lg md:max-w-[69.375rem] md:flex-row"
-    >
+    <main>
+      <h1 class="sr-only">Stats preview card component</h1>
       <div
-        class="p-8 text-center md:w-[51.4%] md:p-12.5 lg:!p-default lg:text-left"
+        class="bg-dark-blue m-6 flex max-w-[34.375rem] flex-col-reverse overflow-hidden rounded-lg md:max-w-[69.375rem] md:flex-row"
       >
-        <h1 class="!leading-title text-[1.75rem] font-bold lg:text-4xl">
-          Get <em class="text-soft-violet not-italic">insights</em> that help
-          your business grow.
-        </h1>
-        <p
-          class="text-slightly-transparent-white leading-paragraph mt-[1.5625rem] lg:max-w-[40ch]"
+        <div
+          class="p-8 text-center md:w-[51.4%] md:p-12.5 lg:!p-default lg:text-left"
         >
-          Discover the benefits of data analytics and make better decisions
-          regarding revenue, customer experience, and overall efficiency.
-        </p>
-        <ul
-          class="mt-[4.375rem] flex flex-wrap justify-center gap-10 lg:gap-[3.75rem] text-2xl font-bold lg:justify-start"
-        >
-          <li class="mr-[0.3125rem]">
-            <p class="flex flex-col gap-1.5">
-              10k+
-              <span
-                class="font-lexend text-slightly-transparent-white-aux text-xs font-normal uppercase tracking-[0.08em]"
-              >
-                companies
-              </span>
-            </p>
-          </li>
-          <li>
-            <p class="flex flex-col gap-1.5">
-              314
-              <span
-                class="font-lexend text-slightly-transparent-white-aux text-xs font-normal uppercase tracking-[0.08em]"
-              >
-                templates
-              </span>
-            </p>
-          </li>
-          <li>
-            <p class="flex flex-col gap-1.5">
-              12M+
-              <span
-                class="font-lexend text-slightly-transparent-white-aux text-xs font-normal uppercase tracking-[0.08em]"
-              >
-                queries
-              </span>
-            </p>
-          </li>
-        </ul>
+          <h2 class="!leading-title text-[1.75rem] font-bold lg:text-4xl">
+            Get <em class="text-soft-violet not-italic">insights</em> that help
+            your business grow.
+          </h2>
+          <p
+            class="text-slightly-transparent-white leading-paragraph mt-[1.5625rem] lg:max-w-[40ch]"
+          >
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <ul
+            class="mt-[4.375rem] flex flex-wrap justify-center gap-10 lg:gap-[3.75rem] text-2xl font-bold lg:justify-start"
+          >
+            <li class="mr-[0.3125rem]">
+              <p class="flex flex-col gap-1.5">
+                10k+
+                <span
+                  class="font-lexend text-slightly-transparent-white-aux text-xs font-normal uppercase tracking-[0.08em]"
+                >
+                  companies
+                </span>
+              </p>
+            </li>
+            <li>
+              <p class="flex flex-col gap-1.5">
+                314
+                <span
+                  class="font-lexend text-slightly-transparent-white-aux text-xs font-normal uppercase tracking-[0.08em]"
+                >
+                  templates
+                </span>
+              </p>
+            </li>
+            <li>
+              <p class="flex flex-col gap-1.5">
+                12M+
+                <span
+                  class="font-lexend text-slightly-transparent-white-aux text-xs font-normal uppercase tracking-[0.08em]"
+                >
+                  queries
+                </span>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <picture class="bg-violet md:w-[48.6%] lg:w-auto">
+          <source
+            srcset="./images/image-header-desktop.jpg"
+            media="(min-width: 54.6875em)"
+          />
+          <img
+            src="./images/image-header-mobile.jpg"
+            alt=""
+            class="filter-image h-full w-full object-cover"
+            width="540"
+            height="446"
+          />
+        </picture>
       </div>
-      <picture class="bg-violet md:w-[48.3%] lg:w-auto">
-        <source
-          srcset="./images/image-header-desktop.jpg"
-          media="(min-width: 48em)"
-        />
-        <img
-          src="./images/image-header-mobile.jpg"
-          alt=""
-          class="filter-image h-full w-full object-cover"
-          width="540"
-          height="446"
-        />
-      </picture>
     </main>
   </body>
 </html>

@@ -7,11 +7,6 @@
         font-family: 'Inter', sans-serif;
         font-size: 0.9375rem;
     }
-
-    :is(a, button, input, textarea, select, details, summary):focus-visible {
-        outline: white solid 0.15rem;
-        outline-offset: 0.188rem;
-    }
 }
 
 @layer components {
