@@ -47,14 +47,27 @@
     <main>
       <h1 class="sr-only">Stats preview card component</h1>
       <div
-        class="bg-dark-blue m-6 flex max-w-[34.375rem] flex-col-reverse overflow-hidden rounded-lg md:max-w-[69.375rem] md:flex-row"
+        class="bg-dark-blue m-6 flex flex-col max-w-[34.375rem] overflow-hidden rounded-lg md:max-w-[69.375rem] md:flex-row-reverse"
       >
+        <picture class="bg-violet md:w-[48.6%] lg:w-auto">
+          <source
+            media="(min-width: 54.6875em)"
+            srcset="./images/image-header-desktop.jpg"
+          />
+          <img
+            src="./images/image-header-mobile.jpg"
+            alt=""
+            class="filter-image h-full w-full object-cover"
+            width="540"
+            height="446"
+          />
+        </picture>
         <div
           class="p-8 text-center md:w-[51.4%] md:p-12.5 lg:!p-default lg:text-left"
         >
           <h2 class="!leading-title text-[1.75rem] font-bold lg:text-4xl">
-            Get <em class="text-soft-violet not-italic">insights</em> that help
-            your business grow.
+            Get <span class="text-soft-violet not-italic">insights</span> that
+            help your business grow.
           </h2>
           <p
             class="text-slightly-transparent-white leading-paragraph mt-[1.5625rem] lg:max-w-[40ch]"
@@ -63,9 +76,10 @@
             regarding revenue, customer experience, and overall efficiency.
           </p>
           <ul
+            role="list"
             class="mt-[4.375rem] flex flex-wrap justify-center gap-10 lg:gap-[3.75rem] text-2xl font-bold lg:justify-start"
           >
-            <li class="mr-[0.3125rem]">
+            <li role="listitem" class="mr-[0.3125rem]">
               <p class="flex flex-col gap-1.5">
                 10k+
                 <span
@@ -75,7 +89,7 @@
                 </span>
               </p>
             </li>
-            <li>
+            <li role="listitem">
               <p class="flex flex-col gap-1.5">
                 314
                 <span
@@ -85,7 +99,7 @@
                 </span>
               </p>
             </li>
-            <li>
+            <li role="listitem">
               <p class="flex flex-col gap-1.5">
                 12M+
                 <span
@@ -97,19 +111,6 @@
             </li>
           </ul>
         </div>
-        <picture class="bg-violet md:w-[48.6%] lg:w-auto">
-          <source
-            srcset="./images/image-header-desktop.jpg"
-            media="(min-width: 54.6875em)"
-          />
-          <img
-            src="./images/image-header-mobile.jpg"
-            alt=""
-            class="filter-image h-full w-full object-cover"
-            width="540"
-            height="446"
-          />
-        </picture>
       </div>
     </main>
   </body>

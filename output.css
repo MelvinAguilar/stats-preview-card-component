@@ -583,10 +583,6 @@ body {
   flex-direction: column;
 }
 
-.flex-col-reverse {
-  flex-direction: column-reverse;
-}
-
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -745,8 +741,8 @@ body {
     max-width: 69.375rem;
   }
 
-  .md\:flex-row {
-    flex-direction: row;
+  .md\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .md\:p-12 {
